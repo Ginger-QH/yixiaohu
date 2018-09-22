@@ -1,0 +1,323 @@
+
+/*通用导航条*/
+.nav{
+    width:100%;
+    height:110px;
+    line-height: 110px;
+    color:#5F5F5F;
+    background: #FFFFFF;
+    font-size: 18px;
+}
+/*居中*/
+.wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.logo,.left_ul,.left_ul>li,.right_ul>li{
+    float:left;
+}
+/*logo位置*/
+.logo{
+    margin-top:33px;
+}
+.left_ul  a,.right_ul a{
+    color: #5F5F5F;
+    margin:0  5px;
+
+}
+.left_ul  a:hover,.right_ul a:hover{
+    padding-bottom: 10px;
+    color: skyblue;
+    border-bottom:2px solid skyblue;
+}
+.right_ul{
+    float: right;
+    font-size: 16px;
+}
+
+.left_ul{
+    margin-left:83px;
+}
+/*通用导航条样式结束*/
+/*背景图样式开始*/
+.bg1{
+    background-image: url(../img/bg5.png);
+    height:570px;
+}
+.bg1 .wrap{
+    /*color:red;*/
+    /*float:left;*/
+    /*margin-left:40px;*/
+    position:relative;
+}
+.one{
+    color:#fff;
+    font-size: 30px;
+    position:absolute;
+    top:490px;
+    left:20px;
+}
+.two{
+    position:absolute;
+    top:500px;
+    left:180px;
+    color:#fff;
+    font-size: 18px;
+}
+
+/*背景图样式结束*/
+/*简单说明样式开始*/
+.text1{
+    height:445px;
+}
+.text1 h1{
+    font-size: 45px;
+    padding-top: 120px;
+    padding-bottom:40px;
+}
+.text1 p{
+    font-size: 23px;
+    color:#939393;
+    text-align: left;
+    padding:0 75px;
+}
+.text1 hr{
+    margin-top:75px;
+}
+/*简单说明样式结束*/
+/*表单样式开始*/
+.data_one a{
+    display:inline-block;
+    width:180px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#ddd;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.data_one p{
+    padding:20px 0;
+}
+
+/*表格*/
+.data_two table{
+    margin-left: 175px;
+}
+.data_two_one{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.data_two table tr{
+    /*display:block;*/
+    /*margin:50px 0;*/
+}
+.data_two th{
+    text-align: right;
+    padding:20px 0;
+    padding-right:10px;
+    color:#848484;
+}
+.data_two td{
+    text-align: left;
+    color:#848484;
+}
+input[type=text]{
+    width:180px;
+    height:30px;
+    border:1px solid #898989;
+    border-radius: 10px;
+    font-size: 18px;
+}
+select{
+    width:180px;
+    height:30px;
+    border-radius: 10px;
+}
+#academy{
+    width:280px;
+}
+.data_two hr{
+    margin:50px 0;
+}
+textarea{
+    font-size: 18px;
+}
+.data_two a{
+    color:skyblue;
+}
+.refer{
+    width:180px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#ddd;
+    font-size: 20px;
+    margin-top:50px;
+}
+
+
+
+
+
+
+/*背景蓝色开始*/
+.bg2{
+    height:395px;
+    background:#1FBCA9;
+    color:white;
+    text-align: left;
+    width:100%;
+}
+
+.text3{
+    margin-top: 160px;
+}
+.text3 h1{
+    font-size: 65px;
+    font-weight: normal;
+}
+.text3 h3{
+    font-size: 45px;
+    margin-top:30px;
+    font-weight: normal;
+    color:#818181;
+}
+.text3 h5{
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    /*background:red;*/
+    font-weight: normal;
+    color:#818181;
+}
+.text3 span{
+    color:skyblue;
+}
+
+.text3 img{
+    margin-bottom: 50px;
+    margin-bottom: 130px;
+}
+
+/*承诺结束样式*/
+.bg_left{
+    /*background:red;*/
+    width:565px;
+    height:395px;
+}
+.bg_center{
+    text-align: center;
+}
+.bg_center h2{
+    padding-top:61px;
+    font-weight: normal;
+}
+.bg_center h1{
+    padding-top:35px;
+    font-size: 45px;
+}
+.bg_center h5{
+    padding-top:40px;
+    font-size: 20px;
+}
+.bg_center a{
+    display:inline-block;
+    font-size: 20px;
+    color:#65CFC2;
+    width:130px;
+    height:40px;
+    line-height: 40px;;
+    margin-top:40px;
+    background:#fff;
+    border-radius: 50px;
+}
+
+
+
+/*背景蓝色结束 */
+
+/*页脚导航样式开始*/
+.footer_nav{
+    width: 100%;
+    background:#F6F6F6;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer_nav ul{
+    float: left;
+    text-align: left;
+    margin-right: 120px;
+}
+.footer_nav h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+    line-height: 33px;
+}
+.footer_nav a{
+    color: #777;
+    font-size: 12px;
+    line-height: 33px;
+}
+.footer_nav a:hover{
+    color:#EF4222;
+}
+.ewm{
+    float: right;
+    color: #777;
+    font-size: 12px;
+}
+.ewm h1{
+    color:#1FBCA9;
+}
+.ewm a{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    border:1px solid #000000;
+    line-height: 30px;;
+    background:#1FBCA9;
+    border-radius: 50px;
+    color:#fff;
+    margin-top:15px;
+}
+
+/*页脚导航样式结束*/
+
+/*页脚样式开始*/
+.footer{
+    padding-top: 40px;
+    color:#AAAAAA;
+    height:235px;
+    background:#f6f6f6;
+}
+.footer a{
+    padding:0 10px;
+    color:#AAAAAA;
+}
+.footer .one_ul{
+    padding:15px;
+}
+.footer .two_ul{
+    margin-bottom: 150px;
+}
+/*页脚样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+i{
+    color:red;
+}

@@ -1,0 +1,428 @@
+/*通用导航条*/
+.nav{
+    width:100%;
+    height:110px;
+    line-height: 110px;
+    color:#5F5F5F;
+    background: #FFFFFF;
+    font-size: 18px;
+}
+/*居中*/
+.wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.logo,.left_ul,.left_ul>li,.right_ul>li{
+    float:left;
+}
+/*logo位置*/
+.logo{
+    margin-top:33px;
+}
+.left_ul  a,.right_ul a{
+    color: #5F5F5F;
+    margin:0  5px;
+
+}
+.left_ul  a:hover,.right_ul a:hover{
+    padding-bottom: 10px;
+    color: skyblue;
+    border-bottom:2px solid skyblue;
+}
+.right_ul{
+    float: right;
+    font-size: 16px;
+}
+
+.left_ul{
+    margin-left:83px;
+}
+/*通用导航条样式结束*/
+/*背景图样式开始*/
+.bg1{
+    /*width:100%;
+    height:605px;*/
+    background-image: url(../img/bg4.png);
+    /*width:100%;*/
+    height:605px;
+    /*background:red;*/
+}
+.bg1 .wrap{
+    /*color:red;*/
+    /*float:left;
+    margin-left:40px;*/
+    position:relative;
+}
+.one{
+    color:#fff;
+    font-size: 47px;
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+.two{
+    position:absolute;
+    top:200px;
+    left:40px;
+    color:#fff;
+    font-size: 35px;
+    text-align: left;
+}
+
+/*背景图样式结束*/
+/*简单说明样式开始*/
+.text1{
+    height:350px;
+}
+
+.text1 h1{
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 100px;
+    padding-bottom:40px;
+}
+.text1 p{
+    font-size: 23px;
+    color:#939393;
+    /*text-align: left;*/
+    padding:0 75px;
+}
+.text1 hr{
+    margin-top:87px;
+}
+/*简单说明样式结束*/
+/*企业上门,预约说明样式开始*/
+.out{
+    height:970px;
+    width:1200px;
+    /*background:pink;*/
+    position:relative;
+}
+.phone img{
+    position:absolute;
+    top:95px;
+    left:10px;
+}
+.text_b h2{
+    position:absolute;
+    top:95px;
+    left:60px;
+    color:#4F4F4F;
+    font-weight: normal;
+}
+.text_b p{
+    position:absolute;
+    top:135px;
+    left:60px;
+    color:#A5A5A5;
+    text-align: left;
+    width:370px;
+}
+
+
+
+.phone2 img{
+    position:absolute;
+    top:305px;
+    left:10px;
+}
+.text_b2 h2{
+    position:absolute;
+    top:305px;
+    left:60px;
+    color:#4F4F4F;
+    font-weight: normal;
+}
+.text_b2 p{
+    position:absolute;
+    top:360px;
+    left:60px;
+    color:#A5A5A5;
+    text-align: left;
+    width:370px;
+}
+
+
+.phone3 img{
+    position:absolute;
+    top:515px;
+    left:10px;
+}
+.text_b3 h2{
+    position:absolute;
+    top:515px;
+    left:60px;
+    color:#4F4F4F;
+    font-weight: normal;
+}
+.text_b3 p{
+    position:absolute;
+    top:570px;
+    left:60px;
+    color:#A5A5A5;
+    text-align: left;
+    width:370px;
+}
+
+
+.phone4 img{
+    position:absolute;
+    top:720px;
+    left:10px;
+}
+.text_b4 h2{
+    position:absolute;
+    top:720px;
+    left:60px;
+    color:#4F4F4F;
+    font-weight: normal;
+}
+.text_b4 p{
+    position:absolute;
+    top:780px;
+    left:60px;
+    color:#A5A5A5;
+    text-align: left;
+    width:370px;
+}
+/*人物图片*/
+.person img{
+    position:absolute;
+    top:110px;
+    right:80px;
+}
+/*企业上门,预约说明样式结束*/
+/*我们的服务样式开始*/
+.service{
+    background:#F8F8F8;
+    /*width:100%;*/
+    height:945px;
+}
+.text2{
+    height:285px;
+}
+.text2 h1{
+    font-size: 45px;
+    padding-top: 105px;
+    padding-bottom:35px;
+}
+.text2 p{
+    font-size: 23px;
+    color:#939393;
+    /*padding:0 75px;*/
+}
+
+
+.part_box{
+    height:530px;
+    width:1200px;
+}
+.part_box>div{
+    width:380px;
+    height:530px;
+    background:white;
+    float:left;
+    margin:0 12px 12px 0;
+    position:relative;
+    transition: all .3s ease-in;
+}
+.part_box>div:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+    transform: translate(0,-2px);
+}
+
+.tell_b{
+    position:absolute;
+    top:250px;
+    left:75px;
+}
+.tell_b p{
+    padding-top:15px;
+    color:#949494;
+}
+/*按钮*/
+.tell_b button{
+    width:180px;
+    height:50px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 80px;
+}
+.tell_b button img{
+    padding-left:18px;
+}
+/*我们的服务样式结束*/
+/*解说样式开始*/
+.text3{
+    margin-top: 160px;
+}
+.text3 h1{
+    font-size: 65px;
+    font-weight: normal;
+}
+.text3 h3{
+    font-size: 25px;
+    margin-top:30px;
+    font-weight: normal;
+    color:#818181;
+}
+.text3 h5{
+    font-size: 25px;
+    margin-top:82px;
+    margin-bottom: 50px;
+    /*background:red;*/
+    font-weight: normal;
+    color:#818181;
+}
+.text3 button{
+    width:180px;
+    height:45px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#fff;
+    font-size: 20px;
+    /*margin-top: 80px;*/
+}
+.bian{
+    margin:0 40px;
+}
+.text3 p{
+    padding-top:30px;
+    color:#1FBCA9;
+    font-size:20px;
+}
+/*115*/
+.text3 hr{
+    margin-top:115px;
+}
+/*解说样式结束*/
+
+/*背景蓝色开始*/
+.bg2{
+    height:395px;
+    background:#1FBCA9;
+    color:white;
+    text-align: left;
+}
+/*.bg2 h2{
+    padding-top: 60px;
+    padding-left:90px;
+    font-weight: normal;
+}
+.bg2 h1{
+    font-size: 45px;
+    padding-top: 35px;
+    padding-left:150px;
+}
+.bg2 h5{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left:90px;
+    font-weight: normal;
+}*/
+.bg_left{
+    /*background:red;*/
+    width:565px;
+    height:395px;
+}
+.bg_center{
+    text-align: center;
+}
+.bg_center h2{
+    padding-top:61px;
+    font-weight: normal;
+}
+.bg_center h1{
+    padding-top:35px;
+    font-size: 45px;
+}
+.bg_center h5{
+    padding-top:40px;
+    font-size: 20px;
+}
+.bg_center a{
+    display:inline-block;
+    font-size: 20px;
+    color:#65CFC2;
+    width:130px;
+    height:40px;
+    line-height: 40px;;
+    margin-top:40px;
+    background:#fff;
+    border-radius: 50px;
+}
+
+
+
+/*背景蓝色结束 */
+
+/*页脚导航样式开始*/
+.footer_nav{
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer_nav ul{
+    float: left;
+    text-align: left;
+    margin-right: 120px;
+}
+.footer_nav h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+    line-height: 33px;
+}
+.footer_nav a{
+    color: #777;
+    font-size: 12px;
+    line-height: 33px;
+}
+.footer_nav a:hover{
+    color:#EF4222;
+}
+.ewm{
+    float: right;
+    color: #777;
+    font-size: 12px;
+}
+.ewm h1{
+    color:#1FBCA9;
+}
+.ewm a{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    border:1px solid #000000;
+    line-height: 30px;;
+    background:#1FBCA9;
+    border-radius: 50px;
+    color:#fff;
+    margin-top:15px;
+}
+
+/*页脚导航样式结束*/
+
+/*页脚样式开始*/
+.footer{
+    margin-top: 40px;
+    color:#AAAAAA;
+}
+.footer a{
+    padding:0 10px;
+    color:#AAAAAA;
+}
+.footer .one_ul{
+    padding:15px;
+}
+.footer .two_ul{
+    margin-bottom: 150px;
+}
+/*页脚样式结束*/
+
+
+
+
+

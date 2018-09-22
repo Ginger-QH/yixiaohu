@@ -1,0 +1,393 @@
+/*通用导航条*/
+.nav{
+    width:100%;
+    height:110px;
+    line-height: 110px;
+    color:#5F5F5F;
+    background: #FFFFFF;
+    font-size: 18px;
+}
+/*居中*/
+.wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.logo,.left_ul,.left_ul>li,.right_ul>li{
+    float:left;
+}
+/*logo位置*/
+.logo{
+    margin-top:33px;
+}
+.left_ul  a,.right_ul a{
+    color: #5F5F5F;
+    margin:0  5px;
+
+}
+.left_ul  a:hover,.right_ul a:hover{
+    padding-bottom: 10px;
+    color: skyblue;
+    border-bottom:2px solid skyblue;
+}
+.right_ul{
+    float: right;
+    font-size: 16px;
+}
+
+.left_ul{
+    margin-left:83px;
+}
+/*通用导航条样式结束*/
+/*背景图样式开始*/
+.bg1{
+    /*width:100%;
+    height:605px;*/
+    background-image: url(../img/doorstep.png);
+    /*width:100%;*/
+    height:605px;
+    /*background:red;*/
+}
+.bg1 .wrap{
+    /*color:red;*/
+    /*float:left;
+    margin-left:40px;*/
+    position:relative;
+}
+.one{
+    color:#474847;
+    font-size: 47px;
+    position:absolute;
+    top:120px;
+    left:40px;
+}
+.two{
+    position:absolute;
+    top:200px;
+    left:40px;
+    color:#626262;
+    font-size: 35px;
+    text-align: left;
+}
+
+/*背景图样式结束*/
+/*承诺开始样式*/
+.promise{
+    height:950px;
+    /*background:gray;*/
+}
+/*承诺方块*/
+.servicepromise>div{
+    width:599px;
+    height:316.5px;
+    float:left;
+    border-right:1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+    position:relative;
+}
+.servicepromise>div:nth-child(2),.servicepromise>div:nth-child(4),.servicepromise>div:nth-child(6){
+    border-right:none;
+}
+.servicepromise .pic{
+    float:left;
+    padding:0 50px;
+    padding-top:50px;
+}
+.text_pic h1{
+    position:absolute;
+    left:200px;
+    top:50px;
+}
+.text_pic p{
+    position:absolute;
+    left:200px;
+    top:100px;
+    text-align: left;
+    font-size: 18px;
+    color:#838383;
+    padding-right:50px;
+}
+/*承诺结束样式*/
+/*我们的服务样式开始*/
+.service{
+    background:#F8F8F8;
+    /*width:100%;*/
+    height:975px;
+}
+.text2{
+    height:285px;
+}
+.text2 h1{
+    font-size: 45px;
+    padding-top: 105px;
+    padding-bottom:35px;
+}
+.text2 p{
+    font-size: 23px;
+    color:#939393;
+    /*padding:0 75px;*/
+}
+
+/*栅格*/
+.part_box{
+    height:530px;
+    width:1200px;
+}
+.part_box>div{
+    width:375px;
+    height:470px;
+    background:white;
+    float:left;
+    margin:0 12px 12px 0;
+    position:relative;
+    transition: all .3s ease-in;
+}
+.part_box>div:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+    transform: translate(0,-2px);
+}
+.phone h1{
+    padding-top:42px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.phone p{
+    margin-top:33px;
+    padding:0 50px;
+    color:#858585;
+}
+.text_b{
+    position:absolute;
+    top:295px;
+    left:100px;
+}
+.text_b h1{
+    color:#F48641;
+}
+.text_b>h1>span{
+    color:#6F6F6F;
+    font-size: 14px;
+}
+
+/*按钮*/
+.text_b button{
+    width:180px;
+    height:50px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.text_b button img{
+    padding-left:18px;
+}
+.text_c{
+    /*margin-top: 65px;*/
+    color:#818181;
+    font-size: 20px;
+}
+/*我们的服务样式结束*/
+
+/*栅格化样式开始*/
+
+
+
+
+/*栅格*/
+.grid_box{
+    height:530px;
+    width:1200px;
+}
+.grid_box>div{
+    width:300px;
+    height:470px;
+    background:white;
+    float:left;
+    /*margin:0 12px 12px 0;*/
+    margin:0 12px;
+    position:relative;
+    transition: all .3s ease-in;
+}
+.grid_box>div:nth-child(2){
+    padding: 0 110px
+}
+.grid_phone{
+    margin-top: 105px;
+}
+
+.grid_text_b h1{
+    margin-top:50px;
+    font-weight: 300;
+    color:#4F4F4F;
+}
+.grid_text_b p{
+    margin-top:30px;
+    color:#C1C1C1;
+}
+
+/*按钮*/
+.grid_box button{
+    width:180px;
+    height:50px;
+    border-radius: 100px;
+    background:#1FBCA9;
+    color:#fff;
+    font-size: 20px;
+    /*margin-top: 32px;*/
+}
+.grid_box button img{
+    padding-left:18px;
+}
+
+
+/*背景蓝色开始*/
+.bg2{
+    height:395px;
+    background:#1FBCA9;
+    color:white;
+    text-align: left;
+    width:100%;
+}
+
+.text3{
+    margin-top: 160px;
+}
+.text3 h1{
+    font-size: 65px;
+    font-weight: normal;
+}
+.text3 h3{
+    font-size: 45px;
+    margin-top:30px;
+    font-weight: normal;
+    color:#818181;
+}
+.text3 h5{
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    /*background:red;*/
+    font-weight: normal;
+    color:#818181;
+}
+.text3 span{
+    color:skyblue;
+}
+
+.text3 img{
+    margin-bottom: 50px;
+    margin-bottom: 130px;
+}
+
+/*承诺结束样式*/
+.bg_left{
+    /*background:red;*/
+    width:565px;
+    height:395px;
+}
+.bg_center{
+    text-align: center;
+}
+.bg_center h2{
+    padding-top:61px;
+    font-weight: normal;
+}
+.bg_center h1{
+    padding-top:35px;
+    font-size: 45px;
+}
+.bg_center h5{
+    padding-top:40px;
+    font-size: 20px;
+}
+.bg_center a{
+    display:inline-block;
+    font-size: 20px;
+    color:#65CFC2;
+    width:130px;
+    height:40px;
+    line-height: 40px;;
+    margin-top:40px;
+    background:#fff;
+    border-radius: 50px;
+}
+
+
+
+/*背景蓝色结束 */
+
+/*页脚导航样式开始*/
+.footer_nav{
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer_nav ul{
+    float: left;
+    text-align: left;
+    margin-right: 120px;
+}
+.footer_nav h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+    line-height: 33px;
+}
+.footer_nav a{
+    color: #777;
+    font-size: 12px;
+    line-height: 33px;
+}
+.footer_nav a:hover{
+    color:#EF4222;
+}
+.ewm{
+    float: right;
+    color: #777;
+    font-size: 12px;
+}
+.ewm h1{
+    color:#1FBCA9;
+}
+.ewm a{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    border:1px solid #000000;
+    line-height: 30px;;
+    background:#1FBCA9;
+    border-radius: 50px;
+    color:#fff;
+    margin-top:15px;
+}
+
+/*页脚导航样式结束*/
+
+/*页脚样式开始*/
+.footer{
+    margin-top: 40px;
+    color:#AAAAAA;
+}
+.footer a{
+    padding:0 10px;
+    color:#AAAAAA;
+}
+.footer .one_ul{
+    padding:15px;
+}
+.footer .two_ul{
+    margin-bottom: 150px;
+}
+/*页脚样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+/*栅格化样式结束*/
